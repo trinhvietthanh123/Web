@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.takadada.com/wp-content/uploads/2019/07/hinh-nen-vu-tru-56.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+}
+.Tieude{
+    padding-left: 600px;
+    text-decoration: none;
+    color:#090;
+}
+#text1{
+    margin-left: 250px;
+    text-transform: none;
+    border: 1px solid #090;
+    width: 1000px;
+    color:  #addf;
+
+}
+a{
+    text-decoration: none;
+}
+h2{color: yellow;
+    padding: 20px;
+    text-align: center;
+    text-shadow: red 1px 1px 2px;
+}
+
+ul.Sao{
+    
+    width: auto;
+    text-align: center;
+    
+}
+li{
+    
+  display: inline-table;
+  margin-right: 20px;  
+  border: 1px solid navy;
+  border-radius: 2px;
+  transition: 1s;
+  background-color: palegoldenrod;
+}
+li:hover{
+    
+    border: 3px solid #090;
+  background-color: orangered;
+}
+li:visited{
+    color: #000;
+}
+
+
+img {
+ WIDTH: 50%;
+   
+}
+
+
+ .slide.active{
+    text-align: center;
+ }
+ .slide{
+     text-align: center;
+ }
+ 
+@media all and (min-width: 800px){
+    ul{
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
