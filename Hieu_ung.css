@@ -4,17 +4,18 @@ body{
     background-image: url("https://www.takadada.com/wp-content/uploads/2019/07/hinh-nen-vu-tru-56.jpg");
     background-size: cover;
     background-attachment: scroll;
+ 	width:90%
 }
 .Tieude{
-    padding-left: 600px;
-    text-decoration: none;
+    text-align: center;
+   
     color:#090;
 }
 #text1{
-    margin-left: 250px;
+   text-align:center;
     text-transform: none;
     border: 1px solid #090;
-    width: 1000px;
+    width: 70%px;
     color:  #addf;
 
 }
@@ -27,9 +28,11 @@ h2{color: yellow;
     text-shadow: red 1px 1px 2px;
 }
 
-ul.Sao{
+.star{
+    background-color: #efefef;
+    padding: 10px;
+    margin: 10px;
     
-    width: auto;
     text-align: center;
     
 }
@@ -66,10 +69,16 @@ img {
  }
  
 @media all and (min-width: 800px){
-    ul{
-        width: 100%;
+    star{
+        width: 50%;
         text-align: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+        
+    }#text1{
+   
+    text-transform: none;
+    border: 1px solid #090;
+    width: 90%px;
+    color:  #addf;
+
+}
 }
